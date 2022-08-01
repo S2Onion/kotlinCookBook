@@ -8,3 +8,10 @@ fun main() {
         println("middleNameLength=$middleNameLength")
     }
 }
+
+/**
+ * 널 아님 단언 연산자 !! 가 하나라도 있다면 이는 코드 스멜 (Code smell) 이다.
+ * '코드 스멜' 은 잠재적으로 문제가 있는 코드를 말한다.
+ * 널 값에 !! 연산자를 사용하는 것은 코틀린에서 NullPointerException 을 만날 수 있는 몇가지 상황 중 하나이므로
+ * 가능하면 사용하지 않도록 노력한다.
+ */
