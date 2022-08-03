@@ -1,7 +1,5 @@
 package part2.recipe4
 
-import part2.recipe1.Person
-
 fun main() {
     val intVar: Int = 3
     // val langVar: Long = intVar // 컴파일되지 않음
